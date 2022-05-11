@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid brown;
+    border-radius: 10px;
+    cursor: pointer;
+    color: brown;
+    margin: 5px;
+}
+
+.reset {
+    width: 70px;
+}
+
+.counter {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
