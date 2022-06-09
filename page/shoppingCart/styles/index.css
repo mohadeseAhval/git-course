@@ -1,0 +1,158 @@
+body {
+    background-color: #eee;
+}
+
+header {
+    background-color: rgb(151, 151, 151);
+}
+
+button:focus {
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
+.nav-link,
+.navbar-brand {
+    color: rgb(45, 45, 45);
+}
+
+.navbar-brand {
+    font-weight: 900;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+    color: rgb(85, 85, 85);
+}
+
+.btn-cart {
+    background-color: transparent;
+    border: 0;
+    color: rgb(45, 45, 45);
+    font-size: 25px;
+    position: relative;
+}
+
+.badg-count {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+}
+
+.card {
+    width: 100%;
+}
+
+.card .card-img {
+    width: 100%;
+    padding-top: 75%;
+    position: relative;
+    background-color: #eee;
+}
+
+.card .card-img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+}
+
+.cart-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.cart-row:last-child {
+    border-bottom: 0;
+}
+
+.cart-row .cart-row-img {
+    width: 100px;
+    padding-top: 65px;
+    position: relative;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.cart-row .cart-row-img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+}
+
+.cart-row .cart-row-body .card-title {
+    margin-bottom: 0;
+    font-weight: bold;
+    color: rgb(45, 45, 45);
+    font-size: 15px;
+}
+
+.cart-row .cart-row-body .card-text {
+    margin-bottom: 0;
+    font-weight: bold;
+    color: rgb(184, 184, 184);
+    font-size: 13px;
+}
+
+.cart-row .cart-row-count {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cart-row .cart-row-count button {
+    width: 20px;
+    height: 15px;
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    padding: 0;
+}
+
+.cart-row .cart-row-count p {
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(71, 71, 71);
+}
+
+.color-purple {
+    color: rgb(126, 0, 168);
+}
+
+.color-red {
+    color: rgb(192, 0, 99);
+}
+
+.cart-row .btn-clear {
+    width: 17px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    color: rgb(71, 71, 71);
+    background-color: transparent;
+}
